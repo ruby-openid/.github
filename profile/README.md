@@ -12,14 +12,20 @@ Before delving further into the new release though...
 
 Why maintain gems based on ancient standards? Is anyone using them?
 
-Actually, yes. This gem, despite lack of maintenance, and dependencies that have many issues running on modern Ruby, has _only ever grown in daily downloads_, currently around 10,000 per week, which places it firmly in the top 5,000* gems by daily downloads. Some organizations like old standards because they are stable; they literally will not change. As a result, the software supporting the old standards is fairly stable. Others are maintaining old entrenched software which is expensive to replace.  Occasionally new tools need to integrate with those existing tools, and thus the gem's installed base keeps growing.
+Actually, yes. The ruby-openid stack of gems, despite lack of maintenance, and dependencies that have many issues running on modern Ruby, have _only ever grown in daily downloads_, currently around 10,000 per week, which places them firmly in the top 10,000* gems by daily downloads. Some organizations like old standards because they are stable; they literally will not change. As a result, the software supporting the old standards is fairly stable. Others are maintaining old entrenched software which is expensive to replace.  Occasionally new tools need to integrate with those existing tools, and thus the gem's installed base keeps growing.
 
-[![Downloads Rank][👽dl-ranki]][👽dl-rank]
+[![omniauth-openid Downloads Rank][👽omni-oid-dl-ranki]][👽omni-oid-dl-rank]
+[![rack-openid Downloads Rank][👽rack-oid-dl-ranki]][👽rack-oid-dl-rank]
+[![ruby-openid Downloads Rank][👽ruby-oid-dl-ranki]][👽ruby-oid-dl-rank]
 
-[👽dl-rank]: https://rubygems.org/gems/omniauth-openid
-[👽dl-ranki]: https://img.shields.io/gem/rd/omniauth-openid.png
+[👽omni-oid-dl-rank]: https://rubygems.org/gems/omniauth-openid
+[👽omni-oid-dl-ranki]: https://img.shields.io/gem/rd/omniauth-openid.png
+[👽rack-oid-dl-rank]: https://rubygems.org/gems/rack-openid
+[👽rack-oid-dl-ranki]: https://img.shields.io/gem/rd/rack-openid.png
+[👽ruby-oid-dl-rank]: https://rubygems.org/gems/ruby-openid
+[👽ruby-oid-dl-ranki]: https://img.shields.io/gem/rd/ruby-openid.png
 
-# New in v2.0.2
+# New in omniauth-openid v2.0.2
 
 As is often the case for gems that started life decades ago, there was no declared minimum ruby version.  However, the ancient Travis CI test suite ran against Ruby 2.4 and greater, so it seems fair to assume ruby 2.4 as the de facto minimum ruby version.
 
